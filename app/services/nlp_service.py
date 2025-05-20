@@ -8,7 +8,7 @@ from spacy.matcher import PhraseMatcher
 from app.utils.wordcloud_util import generate_wordcloud_base64
 
 
-nltk.download('rslp') # tire este codigo e rode manualmente se desejar
+#nltk.download('rslp') # Descomente este codigo se deseja baixar o pacote sozinho ou rode manualmente se desejar
 pln = spacy.load('pt_core_news_sm')
 stemmer = RSLPStemmer()
 
