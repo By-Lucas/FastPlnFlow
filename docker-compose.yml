@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: fastplnflow
+      RABBITMQ_DEFAULT_PASS: fastplnflow2025
+
+  api:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - rabbitmq
+
+  worker:
+    build: .
+    command: celery -A app.services.celery_worker.celery worker --loglevel=INFO
+    volumes:
+      - .:/app
+    depends_on:
+      - rabbitmq

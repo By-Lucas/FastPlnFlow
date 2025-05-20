@@ -1,0 +1,29 @@
+SR LICENSE - Software Restrito
+
+Copyright (c) 2024 By-Lucas
+
+Todos os direitos reservados.
+
+Este software é fornecido exclusivamente para uso pessoal e/ou autorizado pelo detentor dos direitos. NÃO é permitida a cópia, modificação, distribuição, sublicenciamento, uso comercial ou qualquer outro uso sem autorização prévia, expressa e por escrito do detentor dos direitos.
+
+Qualquer uso não autorizado deste código é estritamente proibido.
+
+O uso deste software implica aceitação destes termos.
+
+Para obter autorização de uso, entre em contato com o proprietário do repositório.
+
+---
+
+SR LICENSE - Restricted Software
+
+Copyright (c) 2024 By-Lucas
+
+All rights reserved.
+
+This software is provided exclusively for personal and/or authorized use by the copyright holder. Copying, modification, distribution, sublicensing, commercial use, or any other usage is NOT permitted without prior, express, and written authorization from the rights holder.
+
+Any unauthorized use of this code is strictly prohibited.
+
+Use of this software implies acceptance of these terms.
+
+To obtain usage authorization, contact the repository owner.
