@@ -21,8 +21,6 @@ async def train_sentiment_model():
     task = train_emotion_model_v2_task.delay("data/base_treinamento.txt")
     return {"task_id": task.id, "status": "Treinamento de sentimentos de texto em processamento "}
 
-
-
 @router.post(
     "/sentiment/tweets/train/",
     summary="Treinar modelo de sentimento com Tweets",
